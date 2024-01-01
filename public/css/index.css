@@ -1,0 +1,66 @@
+html, body {
+    height: 100%;
+    background-color: #f4f2ee;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+}
+
+main {
+    flex: 1;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.fh-color {
+    color: #00857E
+}
+
+#logo-fh {
+    position: absolute;
+    right: 0;
+    width: 80px;
+    height: 210px;
+}
+
+#welcome-message {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#bewertung-toggler-button {
+    background-color: #f4f2ee;
+    border: none;
+    outline: none;
+    text-decoration: underline;
+    color: #00857E;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.grey-bg {
+    background-color: #f4f2ee;
+}
+
+#flex-container-wunschgericht {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#flex-container-home {
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
